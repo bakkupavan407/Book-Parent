@@ -1,0 +1,33 @@
+﻿body {
+    /*font-size: 15px;*/
+}
+#authmenu {
+    /*background-color:#e8e8e8;*/
+    border-bottom: 2px solid black;
+}
+#ul_menu {
+    margin:0px;
+    display:inline-block;
+    padding-left:10px;
+}
+.li_menu {
+    display:inline-block;
+    list-style-type:none;
+    margin:2px 5px;
+    font-weight:bold;
+    padding:3px;
+}
+.a_menu {
+    text-decoration:none;
+    color:#000000;
+    }
+#ul_right {
+    float:right;
+    margin:0px;
+}
+#auth_mainMenu {
+    margin-top: 40px;
+}
+.auth-mainmenu {
+    font-size: 15px;
+}

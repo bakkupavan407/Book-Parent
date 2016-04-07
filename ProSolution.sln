@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProUI", "ProUI\ProUI.csproj", "{103AF357-0F85-4774-BBF9-93EB591EEF0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProBL", "ProBL\ProBL.csproj", "{ABD4AD3D-4D00-46AA-BFC1-FDA8FD64F8A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProDL", "ProDL\ProDL.csproj", "{6D4A7493-A4EA-4B26-86DB-BCAC0387EA3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{103AF357-0F85-4774-BBF9-93EB591EEF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{103AF357-0F85-4774-BBF9-93EB591EEF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{103AF357-0F85-4774-BBF9-93EB591EEF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{103AF357-0F85-4774-BBF9-93EB591EEF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABD4AD3D-4D00-46AA-BFC1-FDA8FD64F8A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD4AD3D-4D00-46AA-BFC1-FDA8FD64F8A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD4AD3D-4D00-46AA-BFC1-FDA8FD64F8A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD4AD3D-4D00-46AA-BFC1-FDA8FD64F8A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D4A7493-A4EA-4B26-86DB-BCAC0387EA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4A7493-A4EA-4B26-86DB-BCAC0387EA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4A7493-A4EA-4B26-86DB-BCAC0387EA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4A7493-A4EA-4B26-86DB-BCAC0387EA3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

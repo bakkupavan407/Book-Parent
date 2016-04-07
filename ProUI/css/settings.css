@@ -1,0 +1,7 @@
+﻿html,body,.main-container,.header-component{
+	background-color: #DDDABF !important;
+}
+.main-container {
+    width: 980px;
+    margin: 0 auto;
+}

@@ -1,0 +1,10 @@
+E:\Free\ProSolution\ProUI\bin\ProUI.dll
+E:\Free\ProSolution\ProUI\bin\ProUI.pdb
+E:\Free\ProSolution\ProUI\bin\ProBL.dll
+E:\Free\ProSolution\ProUI\bin\ProBL.pdb
+E:\Free\ProSolution\ProUI\obj\Debug\ProUI.csprojResolveAssemblyReference.cache
+E:\Free\ProSolution\ProUI\obj\Debug\ProUI.dll
+E:\Free\ProSolution\ProUI\obj\Debug\ProUI.pdb
+E:\Free\ProSolution\ProUI\bin\ProDL.dll
+E:\Free\ProSolution\ProUI\bin\ProDL.pdb
+E:\Free\ProSolution\ProUI\bin\Newtonsoft.Json.xml

@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="auth.master.cs" Inherits="BookUI.masters.auth" %>
+
+<%@ Register TagPrefix="books" TagName="header" Src="~/Components/header.ascx" %>
+<%@ Register TagPrefix="books" TagName="authmain" Src="~/Components/authMainMenu.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link rel="Stylesheet" href="../css/lib/bootstrap-3.3.6.css" />
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <%--<form id="form1" runat="server">
+    <div id="header">
+        <books:header ID="Header1" runat="server" />
+    </div>
+    <div id="mainmenu">
+        <books:authmain runat="server" />
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>--%>
+    <div class="main-container">
+        <div id="header" class="header-component">
+            <books:header ID="Header2" runat="server" />
+        </div>
+        <div id="mainmenu">
+            <books:authmain ID="Authmain1" runat="server" />
+        </div>
+        <div class="middle-container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</body>
+</html>

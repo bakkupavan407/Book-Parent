@@ -1,0 +1,109 @@
+﻿html,body,.main-container,.header-component{
+	background-color: #DDDABF !important;
+}
+.main-container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#profitlossContainer, #localdiv {
+    width: 980px;
+}
+
+.inlineBlock:nth-child(1) {
+    float: left;
+    width: 120px;
+}
+
+.profit-loss-container-right .row .spacer,
+.profit-loss-container-left .row .spacer,
+.deficit-container-left .row .spacer,
+.total-container-right .row .spacer {
+    float: right;
+}
+
+.profit-loss-container-right, .profit-loss-container-left, .deficit-container-left, .total-container-right {
+    float: left;
+    visibility: visible !important;
+    border: 1px solid;
+    overflow-y: auto;
+    position: relative;
+}
+
+.profit-loss-container-right .row,
+.profit-loss-container-left .row,
+.deficit-container-left .row,
+.total-container-right .row {
+    margin: 15px;
+}
+
+.profit-loss-container-right, .profit-loss-container-left, .profit-loss-container-right .v-line, .profit-loss-container-left .v-line {
+    min-height: 300px;
+    height: 300px;
+}
+
+.deficit-container-left, .total-container-right, .deficit-container-left .v-line, .total-container-right .v-line {
+    min-height: 100px;
+    height: 100px;
+}
+
+.profit-loss-container-right, .total-container-right {
+    width: calc(100% - 492px);
+    border-left: 0px solid;
+}
+
+.profit-loss-container-left, .deficit-container-left {
+    width: calc(50% - 2px);
+}
+
+.clear {
+    clear: both;
+}
+
+.spacer {
+    margin-left: 20px;
+}
+
+.v-line {
+    height: calc(100%);
+    position: absolute;
+    border-left: 1px solid;
+    left: 360px;
+}
+
+.receipts-header {
+    float: left;
+    margin-left: 220px;
+}
+
+.payments-header {
+    float: right;
+    margin-right: 220px;
+}
+
+.deficit-container-left, .total-container-right {
+    border-top: 0px solid;
+}
+
+.deficit-container-left .spacer, .total-container-right .spacer {
+    padding-left: 60px;
+    background-color: yellow;
+}
+.deficit-container-left .row:nth-child(1), .total-container-right .row:nth-child(1) {
+    padding-left: 60px;
+    background-color: yellow;
+    border-bottom: 1px solid;
+}
+
+
+/*Pavan Styles*/
+.filter-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 17px;
+}
+
+.print-container {
+    position: relative;
+    left: 930px;
+}
